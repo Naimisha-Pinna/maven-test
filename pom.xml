@@ -29,6 +29,7 @@
                     <copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
 			</plugin>
+			
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
@@ -78,7 +79,10 @@
                     </coverage>
                 </configuration>
             </plugin>
+            
+            
         </plugins>
+        
 	<testResources>
             <testResource>
                 <directory>src/test/munit</directory>
@@ -88,6 +92,7 @@
             </testResource>
         </testResources>
     </build>
+    
 
 	<!-- Mule Dependencies -->
 	<dependencies>
@@ -206,6 +211,9 @@
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
-    </pluginRepositories>
+       
+   
+
+            </pluginRepositories>
 
 </project>
