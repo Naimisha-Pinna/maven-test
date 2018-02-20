@@ -81,7 +81,7 @@
             </plugin>
           <plugin>
     <groupId>org.mule.tools.maven</groupId>
-    <artifactId>mule-maven-plugin</artifactId>
+    <artifactId>maventest-pinna</artifactId>
     <version>2.0</version>
     <configuration>
         <deploymentType>cloudhub</deploymentType>
