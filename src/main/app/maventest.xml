@@ -11,6 +11,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
     <context:property-placeholder location="maventest.properties"/>
     <flow name="maventestFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/maventest" doc:name="HTTP"/>
-        <set-payload value="#['Hello world']" doc:name="Set Payload"/>
+        <set-payload value="Hello world" doc:name="Set Payload"/>
     </flow>
 </mule>
